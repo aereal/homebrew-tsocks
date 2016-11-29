@@ -6,7 +6,7 @@ class Tsocks < Formula
   homepage 'http://github.com/aereal/osx-tsocks'
   url 'https://github.com/aereal/osx-tsocks/archive/48dd45c8d3baaf7b108a2a1fca0d1ddacb8d1435.tar.gz'
   version '48dd45c8'
-  sha1 '657537c34699dbeb3aaf2c3dbeb7e749c08eeb19'
+  sha256 '874d24c81f3f9baf33ff71031afbbba19cf2a56980deb2020dbb9400f7c5b143'
   depends_on 'autoconf' => :build if MacOS.xcode_version.to_f >= 4.3
 
   def install
